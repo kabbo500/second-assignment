@@ -1,0 +1,65 @@
+/* ----------google-fonts poppins--------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto+Condensed:ital@1&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* -----header part---- */
+nav h2{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+/* ------main-part------- */
+.first-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.first-article h1{
+    font-size: 52px;
+}
+
+.preebook a{
+  
+   text-decoration: none;
+   justify-content: center;
+    width: 120px;
+    height: 30px;
+    background-color: #B9345A;
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+    border: brown;
+    padding: 5px 20px;
+}
+.fas{
+    padding: 10px;
+}
+.first-article img{
+    background-image: url(design.svg);
+}
+/* --------Media Queries----- */
+/* ----/mobile device/-----  */
+
+@media only screen and (max-width:688px) {
+    nav h2{
+       margin-left: 35px;
+    }
+    .first-section{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+    .first-article{
+        width: 300px;
+    }
+    .first-article h1{
+        font-size: 40px;
+    }
+    .first-article img{
+        width: 100%;
+        
+    }
+}
