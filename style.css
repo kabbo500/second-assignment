@@ -47,6 +47,22 @@ nav h2{
 .first-article img:hover{
     transform: scale(1.8);
 }
+/* ----Brands logo----- */
+.brands-logo{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.brands-logo ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-left: 120px;
+}
+.brands-logo li{
+    list-style: none;
+    margin: 30px;
+}
 /* --------second-part/popular-collection------ */
 .second-section{
     margin: 200px;
@@ -160,6 +176,12 @@ nav h2{
     .first-article img:hover{
         transform: scale(1.5);
     }
+    /* -----Brands logo----  */
+    
+    .brands-logo{
+        display: none;
+    }
+    
     /* --second-section--- */
     .second-section{
         margin: 20px;
@@ -194,7 +216,7 @@ nav h2{
     }
 }
 /* -----Media Queries ------  */
-/* -------/i-Pad device/------  */
+/* -------/tablet device/------  */
 @media only screen and (min-width: 689px) and (max-width: 991px) {
     /* ---first section-- */
     .first-section{
@@ -205,6 +227,11 @@ nav h2{
     }
     .first-pragraph{
         font-size: 20px;
+    }
+    /* -----brands logo----- */
+    .brands-logo ul{
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 20px;
     }
     /* ----second section--- */
     .second-section{
